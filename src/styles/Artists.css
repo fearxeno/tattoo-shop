@@ -1,0 +1,78 @@
+.artists {
+  background-color: var(--clr-2);
+  color: var(--clr-1);
+  text-align: center;
+}
+.artists h3 {
+  padding-top: 3vh;
+}
+.artists hr {
+  margin-top: 10px;
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.artists .cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 8rem;
+  gap: 3rem;
+}
+
+.artists .cards .card .profile {
+  width: 40%;
+  border-radius: 50%;
+  border: 3px solid var(--clr-3);
+  margin-bottom: 1rem;
+}
+
+.artists .cards .card {
+  padding: 1rem;
+}
+
+.artists .cards .card p {
+  padding: 0.7rem;
+}
+.artists .cards .card .card-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  height: 40px;
+  margin: 0 auto;
+  position: relative;
+}
+.artists .cards .card .card-bottom svg {
+  font-size: 30px;
+}
+.artists .cards .card .card-bottom a {
+  color: var(--clr-3);
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.artists .cards .card button {
+  cursor: pointer;
+  width: 20%;
+  height: 40px;
+  background-color: var(--clr-3);
+  color: var(--clr-2);
+  border: 0;
+  border-radius: 20px;
+  padding: 0.3rem;
+  text-transform: uppercase;
+}
+
+@media (max-width: 960px) {
+  .artists .cards {
+    grid-template-columns: 1fr;
+    padding: 2rem;
+  }
+  .artists hr {
+    width: 40%;
+  }
+}

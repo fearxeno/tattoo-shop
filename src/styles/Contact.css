@@ -1,0 +1,98 @@
+.contact {
+  background-color: var(--clr-1);
+  color: var(--clr-2);
+}
+
+.contact .cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 15rem;
+}
+
+.contact .cards .card h2 {
+  color: var(--clr-3);
+}
+
+.contact .cards .card p {
+  font-size: 25px;
+}
+
+.contact .cards .text-color {
+  color: var(--clr-3);
+}
+
+.contact .cards form {
+  display: grid;
+  grid-template-areas:
+    "name name"
+    "email phone"
+    "msg msg"
+    "btn btn";
+  gap: 10px;
+}
+
+.contact .cards form #name {
+  grid-area: name;
+}
+.contact .cards form #email {
+  grid-area: email;
+}
+.contact .cards form #phone {
+  grid-area: phone;
+}
+.contact .cards form #msg {
+  grid-area: msg;
+  height: 150px;
+}
+
+.contact .cards form button {
+  grid-area: btn;
+  justify-self: center;
+  cursor: pointer;
+  text-shadow: rgba(0, 0, 0, 0.6) 0px 4px 12px;
+  padding: 0.2rem;
+  height: 50px;
+  width: 150px;
+  text-transform: uppercase;
+  background-color: var(--clr-3);
+  color: var(--clr-2);
+  font-weight: 600;
+  border: 0;
+  border-radius: 30px;
+  grid-row: 5;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 12px;
+}
+
+.contact .cards form input {
+  padding: 1rem;
+  background-color: transparent;
+  border: 1px solid var(--clr-2);
+  color: var(--clr-2);
+}
+
+@media (max-width: 960px) {
+  .contact .cards {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .contact .cards {
+    padding: 2rem;
+  }
+  .contact .cards .card p {
+    font-size: 18px;
+  }
+  .contact .cards form {
+    display: grid;
+    grid-template-areas:
+      "name"
+      "email"
+      "phone"
+      "msg"
+      "btn";
+    gap: 10px;
+  }
+}
