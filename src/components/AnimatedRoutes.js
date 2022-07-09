@@ -13,11 +13,11 @@ function AnimatedRoutes() {
   const location = useLocation();
   return (
     <Routes location={location} key={location.pathname}>
-      <Route path="/" element={<Home />} />
-      <Route path="about" element={<About />} />
-      <Route path="artists" element={<Artists />} />
-      <Route path="services" element={<Services />} />
-      <Route path="contact" element={<Contact />} />
+      <Route path="/tattoo-shop" element={<Home />} />
+      <Route path="/tattoo-shop/about" element={<About />} />
+      <Route path="/tattoo-shop/artists" element={<Artists />} />
+      <Route path="/tattoo-shop/services" element={<Services />} />
+      <Route path="/tattoo-shop/contact" element={<Contact />} />
     </Routes>
   );
 }
