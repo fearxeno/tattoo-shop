@@ -6,7 +6,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 3rem;
-  height: 10vh;
+
 }
 
 footer svg {
@@ -22,10 +22,25 @@ footer svg:hover {
   align-items: center;
   gap: 10px;
 }
+.footer-item .footer-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+}
 
 @media (max-width:960px){
   footer{
     padding: 1rem;
     flex-direction: column;
+    gap: 20px;
   }
+  .footer-item{
+    flex-direction: column-reverse;
+  }
+  .footer-item .footer-icons{
+    gap: 20px;
+  }
+
 }
+

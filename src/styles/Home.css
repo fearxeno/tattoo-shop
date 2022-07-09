@@ -78,4 +78,7 @@
   .home .img h1{
     font-size: 70px;
   }
+  .home .img{
+    height: 60vh;
+  }
 }

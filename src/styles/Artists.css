@@ -76,3 +76,12 @@
     width: 40%;
   }
 }
+
+@media (max-width:640px){
+  .artists h3{
+    font-size: 60px;
+  }
+  .artists .cards .card button{
+    width: 50%;
+  }
+}

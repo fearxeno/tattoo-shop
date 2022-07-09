@@ -96,3 +96,18 @@
     font-size: 18px;
   }
 }
+
+@media (max-width:640px){
+  .services .col-item {
+    width: 80%;
+  }
+  .services h2{
+    font-size: 45px;
+  }
+  .services .col-1 .col-item .bottom .back{
+    font-size: 25px;
+  }
+  .services .col-item .arrow {
+    font-size: 120px;
+  }
+}

@@ -1,4 +1,4 @@
-.about button{
+.about button {
   background-color: transparent;
   border: 0;
   cursor: pointer;
@@ -11,8 +11,8 @@
   color: var(--clr-2);
 }
 
-.about .columns .col-1{
-    align-self: end;
+.about .columns .col-1 {
+  align-self: end;
 }
 
 .about .columns .col-1 img {
@@ -22,7 +22,6 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 2rem;
-  
 }
 
 .about .columns .col-2 {
@@ -80,7 +79,6 @@
   margin-top: 20px;
 }
 
-
 .about .columns.third .col-2 {
   justify-content: center;
 }
@@ -88,8 +86,8 @@
   width: 100%;
 }
 .about .columns.second img {
-    width: 60%;
-  }
+  width: 60%;
+}
 
 .about .columns.third .col-2 .back {
   color: var(--clr-3);
@@ -100,25 +98,35 @@
   padding-bottom: 2rem;
 }
 
-@media (max-width:960px){
-  .about .columns{
+@media (max-width: 960px) {
+  .about .columns {
     grid-template-columns: 1fr;
   }
-  .about .columns .col-2{
+  .about .columns .col-2 {
     width: 100%;
     align-items: center;
     text-align: center;
     padding: 1rem;
     gap: 20px;
-  } 
-  .about .columns .col-2 p{
+  }
+  .about .columns .col-2 p {
     width: 70%;
   }
-  .about .columns h2{
+  .about .columns h2 {
     font-size: 80px;
   }
 
-  .about .columns .col-1 img{
+  .about .columns .col-1 img {
     display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .about .columns .col-2 p,
+  .about .columns.second .col-2 p {
+    width: 100%;
+  }
+  .about .columns h2 {
+    font-size: 50px;
   }
 }

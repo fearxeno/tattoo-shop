@@ -47,7 +47,7 @@ nav .menu {
     left: -200%;
     background-color: var(--clr-3);
     opacity: 95%;
-    width: 100vw;
+    width: 100%;
     padding: 2rem;
     height: max-content;
     flex-direction: column;
@@ -63,4 +63,9 @@ nav .menu {
     left: 0;
     z-index: 10;
   }
+}
+
+
+@media (max-width:640px){
+ 
 }
