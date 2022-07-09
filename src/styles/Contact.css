@@ -21,7 +21,10 @@
   color: var(--clr-3);
 }
 
+
+
 .contact .cards form {
+  margin-top: 20px;
   display: grid;
   grid-template-areas:
     "name name"
