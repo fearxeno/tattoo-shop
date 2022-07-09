@@ -1,12 +1,18 @@
-import React from "react";
+import React, { useRef } from "react";
 import "../styles/About.css";
 import person from "../images/2.png";
 import person2 from "../images/3.png";
 import person3 from "../images/1.png";
 import { RiArrowDownSLine, RiArrowUpSLine } from "react-icons/ri";
 import { motion } from "framer-motion";
+import { scrollToSection, scrollToTop } from "../components/ScrollTo";
 
 const About = () => {
+  const start = useRef(null);
+  const tattooLife = useRef(null);
+  const culture = useRef(null);
+
+
   return (
     <motion.div
       className="about"
@@ -15,7 +21,7 @@ const About = () => {
       exit={{ opacity: 0 }}
       transition={{ duration: 0.9, ease: "easeIn" }}
     >
-      <section className="columns">
+      <section ref={start} className="columns">
         <div className="col-1">
           <img src={person} alt="" />
         </div>
@@ -45,10 +51,12 @@ const About = () => {
             facilis obcaecati odio facere corporis! Est ducimus modi sed
             provident maiores autem. Iusto.
           </p>
-          <RiArrowDownSLine className="arrow-down" />
+          <button onClick={() => scrollToSection(tattooLife)}>
+            <RiArrowDownSLine className="arrow-down" />
+          </button>
         </div>
       </section>
-      <section className="columns second">
+      <section ref={tattooLife} className="columns second">
         <div className="col-1">
           <img src={person2} alt="" />
         </div>
@@ -78,10 +86,12 @@ const About = () => {
             facilis obcaecati odio facere corporis! Est ducimus modi sed
             provident maiores autem. Iusto.
           </p>
-          <RiArrowDownSLine className="arrow-down" />
+          <button onClick={() => scrollToSection(culture)}>
+            <RiArrowDownSLine className="arrow-down" />
+          </button>
         </div>
       </section>
-      <section className="columns third">
+      <section ref={culture} className="columns third">
         <div className="col-1">
           <img src={person3} alt="" />
         </div>
@@ -104,8 +114,12 @@ const About = () => {
             dignissimos tenetur provident sequi neque. Libero cumque repellendus
             natus, rem quo incidunt doloribus esse rerum
           </p>
-          <RiArrowUpSLine className="arrow-down" />
-          <a className="back">Powrót</a>
+          <button onClick={() => scrollToTop()}>
+            <RiArrowUpSLine className="arrow-down" />
+          </button>
+          <button className="back" onClick={() => scrollToTop()}>
+            Powrót
+          </button>
         </div>
       </section>
     </motion.div>

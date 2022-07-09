@@ -1,3 +1,9 @@
+.about button{
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
 .about .columns {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -22,7 +28,8 @@
 .about .columns .col-2 {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
   text-align: left;
   margin-top: 5rem;
   width: 70%;

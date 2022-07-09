@@ -1,3 +1,11 @@
+.services button{
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  color: var(--clr-3);
+  text-transform: uppercase;
+}
+
 .services .col-1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -30,23 +38,34 @@
 .services .col-item a {
   color: var(--clr-3);
   text-transform: uppercase;
-  font-size: 22px;
+  font-size: 30px;
 }
 
-.services .col-item .arrow-down {
+.services .col-item .arrow {
   color: var(--clr-3);
-  font-size: 50px;
+  font-size: 150px;
   cursor: pointer;
 }
 .services .col-item .bottom {
   margin-top: 1rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.services .col-1 .col-item .bottom .arrow-down,
+.services .col-item .bottom a:nth-of-type(1){
+  align-self: flex-start;
+  font-size: 22px;
+}
+
+.services .col-1 .col-item .bottom .arrow,
 .services .col-1 .col-item .bottom .back {
   align-self: center;
+}
+
+.services .col-1 .col-item .bottom .back{
+  font-size: 35px;
 }
 
 /* column 2  */

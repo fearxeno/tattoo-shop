@@ -1,12 +1,17 @@
-import React from "react";
+import React, { useRef } from "react";
 import "../styles/Services.css";
 import picture from "../images/6.png";
 import picture2 from "../images/8.png";
 import picture3 from "../images/10.png";
 import { RiArrowDownSLine, RiArrowUpSLine } from "react-icons/ri";
 import { motion } from "framer-motion";
+import { scrollToSection, scrollToTop } from "../components/ScrollTo";
 
 const Services = () => {
+  const projects = useRef(null);
+  const coverUp = useRef(null);
+  const removeTattoo = useRef(null);
+
   return (
     <motion.div
       className="services"
@@ -16,7 +21,7 @@ const Services = () => {
       transition={{ duration: 0.9, ease: "easeIn" }}
     >
       <section className="columns">
-        <div className="col-1">
+        <div ref={projects} className="col-1">
           <img src={picture} alt="" />
           <div className="col-item">
             <h2>Indywidualne</h2> <br />
@@ -33,13 +38,15 @@ const Services = () => {
               obcaecati vel enim ipsum, saepe ratione?
             </p>
             <div className="bottom">
-              <a href="/">Zobacz Galerie</a>
-              <RiArrowDownSLine className="arrow-down" />
+              <a href="https://www.worldtattoogallery.com/" target="blank">Zobacz Galerie</a>
+              <button onClick={() => scrollToSection(coverUp)}>
+                <RiArrowDownSLine className="arrow" />
+              </button>
             </div>
           </div>
         </div>
         <div className="col-2">
-          <div className="col-item">
+          <div ref={coverUp} className="col-item">
             <h2>Cover-up</h2> <br />
             <h2>Tatuazu</h2>
             <p>
@@ -54,15 +61,17 @@ const Services = () => {
               obcaecati vel enim ipsum, saepe ratione?
             </p>
             <div className="bottom">
-              <a href="/">Zobacz Galerie</a>
-              <RiArrowDownSLine className="arrow-down" />
+              <a href="https://www.worldtattoogallery.com/" target="blank">Zobacz Galerie</a>
+              <button onClick={() => scrollToSection(removeTattoo)}>
+                <RiArrowDownSLine className="arrow" />
+              </button>
             </div>
           </div>
           <img src={picture2} alt="" />
         </div>
         <div className="col-1">
           <img src={picture3} alt="" />
-          <div className="col-item">
+          <div ref={removeTattoo} className="col-item">
             <h2>Usuniecie</h2> <br />
             <h2>Tatuazu</h2>
             <p>
@@ -77,11 +86,13 @@ const Services = () => {
               obcaecati vel enim ipsum, saepe ratione?
             </p>
             <div className="bottom">
-              <a href="/">Zobacz Galerie</a>
-              <RiArrowUpSLine className="arrow-down" />
-              <a href="/" className="back">
-                Powrot
-              </a>
+              <a href="https://www.worldtattoogallery.com/" target="blank">Zobacz Galerie</a>
+              <button onClick={() => scrollToTop()}>
+                <RiArrowUpSLine className="arrow" />
+              </button>
+              <button onClick={() => scrollToTop()} className="back">
+                Powrót
+              </button>
             </div>
           </div>
         </div>

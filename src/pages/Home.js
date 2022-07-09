@@ -3,14 +3,16 @@ import "../styles/Home.css";
 import { motion } from "framer-motion";
 import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 
+
+
 const Home = () => {
   const center = { lat: 52.406286722807025, lng: 16.923182985415593 };
-
+  const apiKey = process.env.REACT_APP_GOOGLE_MAPS_API_KEY;
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: "AIzaSyDBmNJoVcOf1YJ3A3z1IVdhIhIG8ikoeFU",
+    googleMapsApiKey: apiKey,
   });
 
-  if (!isLoaded) return <div></div>;
+  if (!isLoaded) return <div className="loading"></div>;
 
   return (
     <motion.main
