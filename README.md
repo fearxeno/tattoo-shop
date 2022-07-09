@@ -22,7 +22,8 @@ Website of Inky Tattoo Shop. Template website I built to practice my CSS, React 
 ![image](https://user-images.githubusercontent.com/100607729/178109075-1947fa90-748d-425f-931f-cd704ace1381.png)
 
 ### 5. Contact
-![image](https://user-images.githubusercontent.com/100607729/178109080-621e4b44-35ff-4ad3-aa6c-b4488fccc558.png)
+![image](https://user-images.githubusercontent.com/100607729/178109661-c6dd091e-11e6-44e8-b702-8f7a6eb12a68.png)
+
 
 
 ### Built with:
