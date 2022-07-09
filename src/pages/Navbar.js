@@ -17,16 +17,16 @@ const Navbar = () => {
         <Link to="/">Home</Link>
         </li>
         <li className="list-item">
-          <Link to="/about">O nas</Link>
+          <Link to="/tatto-shop/about">O nas</Link>
         </li>
         <li className="list-item">
-        <Link to="/artists">Artyści</Link>
+        <Link to="/tatto-shop/artists">Artyści</Link>
         </li>
         <li className="list-item">
-        <Link to="/services">Usługi</Link>
+        <Link to="/tatto-shop/services">Usługi</Link>
         </li>
         <li className="list-item">
-        <Link to="/contact">Kontakt</Link>
+        <Link to="/tatto-shop/contact">Kontakt</Link>
         </li>
       </ul>
     </nav>
