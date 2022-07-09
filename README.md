@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Inky Tattoo Shop
+Website of Inky Tattoo Shop. Template website I built to practice my CSS, React and React Router skills.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+## Sections
+### 1. Home page
+![image](https://user-images.githubusercontent.com/100607729/178108969-e1c0d0c2-15cd-41fc-bc53-efe1964abfed.png)
+![image](https://user-images.githubusercontent.com/100607729/178108983-e2423eaa-d8e7-4d26-9a18-38c6d6da195d.png)
 
-### `npm start`
+### 2. About us
+![image](https://user-images.githubusercontent.com/100607729/178109004-f23e7403-0a1a-4f14-9e7d-af670f6d64b5.png)
+![image](https://user-images.githubusercontent.com/100607729/178109014-3815cb8d-5467-4a7d-b593-e3a7252afc71.png)
+![image](https://user-images.githubusercontent.com/100607729/178109022-6e7330b2-d8c3-4810-9256-2dd6853a096d.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 3. Artists
+![image](https://user-images.githubusercontent.com/100607729/178109045-386f3bca-db5d-4194-a743-a4a312c7d1e5.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 4. Services
+![image](https://user-images.githubusercontent.com/100607729/178109049-c0f8c1ab-104c-4963-a628-1c1d1f4f9147.png)
+![image](https://user-images.githubusercontent.com/100607729/178109064-2eb3fba4-bdad-499a-91d5-8d07e4568cb0.png)
+![image](https://user-images.githubusercontent.com/100607729/178109075-1947fa90-748d-425f-931f-cd704ace1381.png)
 
-### `npm test`
+### 5. Contact
+![image](https://user-images.githubusercontent.com/100607729/178109080-621e4b44-35ff-4ad3-aa6c-b4488fccc558.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Built with:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- State Hooks
+- [Google Maps API](https://www.npmjs.com/package/@react-google-maps/api) - API for Google Maps
+- [React Router](https://reactrouter.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [React](https://reactjs.org/) 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Setup:
+Clone this repo to your desktop and run `npm install` to install all the dependencies. Run the app by `npm start`
 
-### `npm run eject`
+## Live version link: https://fearxeno.github.io/tattoo-shop/
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
