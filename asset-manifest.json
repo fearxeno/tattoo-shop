@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/tattoo-shop/static/css/main.057329b3.css",
+    "main.js": "/tattoo-shop/static/js/main.e75edbee.js",
+    "static/media/3.png": "/tattoo-shop/static/media/3.6b4a12847ebf6a0501fd.png",
+    "static/media/6.png": "/tattoo-shop/static/media/6.dd038946c35333692b66.png",
+    "static/media/10.png": "/tattoo-shop/static/media/10.301a93b2685aa5c177c4.png",
+    "static/media/1.png": "/tattoo-shop/static/media/1.97502f47f7a3c9b7f56c.png",
+    "static/media/2.png": "/tattoo-shop/static/media/2.622fed57bf1643a41428.png",
+    "static/media/8.png": "/tattoo-shop/static/media/8.8cbb7fe70e59fe192d11.png",
+    "static/media/bg.jpg": "/tattoo-shop/static/media/bg.091d7fbff5d4cdeb8c40.jpg",
+    "static/media/artist3.jpg": "/tattoo-shop/static/media/artist3.a20205c90fb765135549.jpg",
+    "static/media/artist4.jpg": "/tattoo-shop/static/media/artist4.09191599d4b3dfd221ae.jpg",
+    "static/media/artist5.jpg": "/tattoo-shop/static/media/artist5.488f928d477f9aa2dda0.jpg",
+    "static/media/artist6.jpg": "/tattoo-shop/static/media/artist6.30bb74296cb4ed857916.jpg",
+    "static/media/artist2.jpg": "/tattoo-shop/static/media/artist2.1bae017a4519ed581b9d.jpg",
+    "static/media/logo.png": "/tattoo-shop/static/media/logo.36b5ddc88c8346da6c68.png",
+    "static/media/artists1.jpg": "/tattoo-shop/static/media/artists1.97dd099e1f38cc092b4c.jpg",
+    "index.html": "/tattoo-shop/index.html",
+    "main.057329b3.css.map": "/tattoo-shop/static/css/main.057329b3.css.map",
+    "main.e75edbee.js.map": "/tattoo-shop/static/js/main.e75edbee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.057329b3.css",
+    "static/js/main.e75edbee.js"
+  ]
+}
