@@ -14,19 +14,19 @@ const Navbar = () => {
       <FaBars className="menu" onClick={() => setClick(!click)} />
       <ul className={click ? "nav-list active" : "nav-list"}>
         <li className="list-item">
-        <Link to="/">Home</Link>
+        <Link to="/tattoo-shop">Home</Link>
         </li>
         <li className="list-item">
-          <Link to="/tatto-shop/about">O nas</Link>
+          <Link to="/tattoo-shop/about">O nas</Link>
         </li>
         <li className="list-item">
-        <Link to="/tatto-shop/artists">Artyści</Link>
+        <Link to="/tattoo-shop/artists">Artyści</Link>
         </li>
         <li className="list-item">
-        <Link to="/tatto-shop/services">Usługi</Link>
+        <Link to="/tattoo-shop/services">Usługi</Link>
         </li>
         <li className="list-item">
-        <Link to="/tatto-shop/contact">Kontakt</Link>
+        <Link to="/tattoo-shop/contact">Kontakt</Link>
         </li>
       </ul>
     </nav>
